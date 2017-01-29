@@ -1,0 +1,43 @@
+* {
+	border: 1px solid rgba(0,0,0,0.3);
+}
+h1 {
+	font-weight: bold;
+	font-size: 25px;
+	color: #1f6870;
+	padding: 10px;
+	text-align: center;
+	outline-style: outset;
+	border-style: solid;
+	background-color: blue;
+
+}
+
+.header {
+	background-color: white;
+	width: 200px;
+	margin-left: 50px;
+	text-align: right;
+	position: relative;
+
+}
+
+h3 {
+	float: right;
+}
+
+.container {
+	width: 100%;
+	background color: white;
+}
+
+
+body {
+	background-color: #1f6870;
+	font-family: "Arial Black", "Times New Roman", Gadget, sans-serif;
+
+}
+
+p {
+	float: left;
+}

@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+	width: 960px;
+
+}
+
+header {
+	background-color: #ffffff;
+	border: 2px solid #cccccc;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	
+
+}
+
+h1 {
+	color: white;
+	background-color: #4aaaa5;
+	width: 100px;
+
+
+}
+.links {
+	color: #777777;
+}
+
+#left {
+
+}
+#middle {
+
+}
+#right {
+
+}
+
+}
+
+.container {
+	border-color: #dddddd;
+	width: 650px;
+
+}
+
+
+#about-me {
+	color: #777777;
+	background color: white;
+	width: 40%;
+	margin-left: 50px;
+
+}
+h2 {
+	float: left;
+}
+
+#port-id {
+	float: left;
+
+}
+
+p{
+
+}
+
+footer {
+	background-color: #666666;
+	clear: both;
+	overflow: auto;
+}
