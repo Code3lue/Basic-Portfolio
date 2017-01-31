@@ -1,43 +1,139 @@
 * {
-	border: 1px solid rgba(0,0,0,0.3);
-}
-h1 {
-	font-weight: bold;
-	font-size: 25px;
-	color: #1f6870;
-	padding: 10px;
-	text-align: center;
-	outline-style: outset;
-	border-style: solid;
-	background-color: blue;
+	box-sizing: border-box;
 
 }
 
 .header {
-	background-color: white;
-	width: 200px;
-	margin-left: 50px;
-	text-align: right;
+	position: absolute;
+	background-color: #4aaaa5;
+	margin-left: 150px;
+	text-align: center;
+	width: 250px;
+	height: 88px;
+	top: 0;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	
+}
+h1 {
+	color: white;
+}
+
+.links {
+	float:right;
+	overflow: auto;
+	clear: left;
+	color: #d5b8a6;
+	font-size: 20px;
+	margin-right: 360px;
+	font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 20px;
+
+
+}
+
+#left {
+	float:left;
+}
+#middle {
+	float:left;
+}
+#right {
+	float:left;
+}
+
+#container {
 	position: relative;
+	top: 80px;
+	border-top: 4px solid #e1e1e1;
+	background: url("../asanoha-400px/asanoha-400px.png");
+	height: 560px;
+	
+}
+
+#wrapper {
+	position: absolute;
+
+	/*margin-left: 156px;*/
+	border: 2px solid #e1e1e1;
+	background-color: white;
+	padding: 20px;
+	height: 480px;
+	top: 38px;
+	left: 150px;
 
 }
 
-h3 {
-	float: right;
+#about-me{
+	color: #56b2bc;
+	font-size: 22px;
+	
+
 }
 
-.container {
-	width: 100%;
-	background color: white;
+#body {
+	width: 650px;
+	height: 480px;
+	clear: right;
+	font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 20px;
+	color: #96979b;
+	border-top:4px solid #e1e1e1;
+
 }
-
-
-body {
-	background-color: #1f6870;
-	font-family: "Arial Black", "Times New Roman", Gadget, sans-serif;
+#port-id {
+	float: left;
+	margin: 0px 10px 10px 0;
+}
 
 }
 
 p {
 	float: left;
+	text-align: left;
+	
+	
+}
+
+
+
+.Connect {
+	position: absolute;
+	width: 270px;
+	right: 331px;
+	text-align: center;
+    top: 37px;
+    border: 2px solid #e1e1e1;
+    height: 173px;
+    background: white;
+
+
+
+}
+
+#h3 {
+	color: #56b2bc;
+	font-size: 20px;
+
+}
+
+
+
+#linkedin {
+	float:left;
+	position:absolute;
+	left:15px;
+
+}
+
+#github {
+	float:left;
+	position:absolute;
+	right: 100px;
+
+}
+
+#stack {
+	float:left;
+	position:absolute;
+	right:21px;
 }

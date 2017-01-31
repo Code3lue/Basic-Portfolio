@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 body {
@@ -13,24 +12,50 @@ header {
 	border: 2px solid #cccccc;
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	clear: right;
-	overflow: auto;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	text-align: center;
+	position: fixed;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    border-bottom: solid;
+   
+
 	
 
 }
 
-h1 {
+#name {
 	color: white;
 	background-color: #4aaaa5;
 	width: 248px;
 	padding: 20px;
 	margin-left: 156px;
-
-
+	/*position: absolute;
+    top: 0;
+    left: 5%;
+    color: #fff;
+    background-color: #4aaaa5;
+    float: left;
+    max-width: 30%;
+    height: 100%;
+    padding: 35px;*/
 
 }
 .links {
 	color: #777777;
 	float: right;
+	position: absolute
+    top: 0;
+    /*right: 2%;
+    color: #777777;
+    float: right;
+    max-width: 30%;
+    height: 100%;
+    padding: 35px;
+    overflow: auto;*/
 
 }
 
@@ -53,6 +78,7 @@ h1 {
 .container {
 	border-color: #dddddd;
 	width: 650px;
+	background: url("asanoha-400px.png") no-repeat center center fixed;
 
 }
 
@@ -68,8 +94,13 @@ h2 {
 	float: left;
 }
 
+#body {
+	width: 100%;
+}
+
 #port-id {
 	float: left;
+	margin-right: 20px;
 
 }
 
