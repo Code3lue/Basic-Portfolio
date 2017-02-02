@@ -15,6 +15,10 @@
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	z-index:1;
 }
+
+body {
+	overflow:hidden;
+}
 h1 {
 	color: white;
 }
@@ -68,12 +72,14 @@ text-decoration: none;
 	margin: 0;
 	padding:0;
 	float:right;
-	position:fixed;
+	/*position:fixed;*/
+	position: absolute;
 }
 
 #navigation ul li {
     list-style-type: none;
     display: inline;
+    
 }
 
 #navigation li:not(:first-child):before {
@@ -138,6 +144,7 @@ a {
 	color: #56b2bc;
 	font-size: 22px;
 	top: -14px;
+
 	
 
 }
