@@ -42,10 +42,10 @@ a:visited {
 #navigation {
 	float:right;
    position: absolute;
-   right:330px;
+   right:283px;
    top:30px;
-   width:176px;
-   height:29px
+   width:193px;
+   height:35px
    margin-left:0;
    margin-right:0;
    color: silver;
@@ -58,7 +58,7 @@ text-decoration: none;
 	margin: 0;
 	padding:0;
 	float:right;
-	position:fixed;
+	position:absolute;
 }
 
 #navigation ul li {
@@ -78,7 +78,7 @@ text-decoration: none;
 	height: 688px;
 	clear: bottom;
 	width: 1356px;
-	z-index:-1;
+	
 
 	
 }
